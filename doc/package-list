@@ -1,0 +1,11 @@
+org.jirduino.config
+org.jirduino.core
+org.jirduino.drivers
+org.jirduino.helpers
+org.jirduino.remote
+org.jirduino.settings
+org.jirduino.tools
+org.jirduino.translators
+org.serialduino.arduino
+org.serialduino.drivers
+org.serialduino.settings
