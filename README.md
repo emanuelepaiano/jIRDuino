@@ -1,4 +1,4 @@
 # jIRDuino
-Manage arduino infrared from Java threads
+Framework for managing arduino IR from Java threads
 
-Java frontend for IRDuino - https://github.com/emanuelepaiano/IRDuino-IRLib2
+Java framework / frontend for IRDuino - https://github.com/emanuelepaiano/IRDuino-IRLib2
