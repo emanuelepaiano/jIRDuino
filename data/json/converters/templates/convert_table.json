@@ -1,0 +1,13 @@
+[{
+  "signal_in": {
+				"protocol_id":0,
+				"value":"0"
+				},
+  "signal_out": {
+				"protocol_id":0,
+				"value":"0"
+				},
+  "delay": 0,
+  "enabled": true
+}]
+
