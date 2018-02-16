@@ -12,5 +12,5 @@ Main Java features:
   <li>IR Remote controller simulator, with JSON keys mapped</li>
 </ul>
 
-Author: Emanuele Paiano
-License: Apache 2.0 for jIRDuino (GPL3 for IRDuino)
+##Author: Emanuele Paiano
+##License: Apache 2.0 for jIRDuino (GPL3 for IRDuino)
