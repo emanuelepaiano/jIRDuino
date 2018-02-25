@@ -85,8 +85,8 @@ public class SignalConverter implements Runnable{
 	
 	/**
 	 * Add a new rule to protocol table. 
-	 * @param in input signal to translate (i.e. new Signal(NEC.PROTOCOL_ID, NEC.POWER_KEY))
-	 * @param out translated signal (i.e. new Signal(NECx.PROTOCOL_ID, NECx.POWER_KEY))
+	 * @param in input signal to translate (i.e. new Signal(Protocols.NEC, "FFEA15", 32))
+	 * @param out translated signal (i.e. new Signal(Protocols.NECx, "E0E040BF", 32))
 	 * @see SignalRuleTable
 	 * 
 	 * */
@@ -97,8 +97,8 @@ public class SignalConverter implements Runnable{
 	
 	/**
 	 * Add a new rule to protocol table. 
-	 * @param in input signal to translate (i.e. new Signal(NEC.PROTOCOL_ID, NEC.POWER_KEY))
-	 * @param out translated signal (i.e. new Signal(NECx.PROTOCOL_ID, NECx.POWER_KEY))
+	 * @param in input signal to translate (i.e. new Signal(Protocols.NEC, "FFEA15", 32))
+	 * @param out translated signal (i.e. new Signal(Protocols.NECx, "E0E040BF", 32))
 	 * @param delaySend delay pause (in millis) before send translated signal
 	 * @param enabled if true, translated signal will be sent by Arduino Pin 3, 
 	 * otherwise signal won't be send
@@ -112,8 +112,8 @@ public class SignalConverter implements Runnable{
 	
 	/**
 	 * Add a new rule to protocol table. 
-	 * @param in input signal to translate (i.e. new Signal(NEC.PROTOCOL_ID, NEC.POWER_KEY))
-	 * @param out translated signal (i.e. new Signal(NECx.PROTOCOL_ID, NECx.POWER_KEY)) 
+	 * @param in input signal to translate (i.e. new Signal(Protocols.NEC, "FFEA15", 32))
+	 * @param out translated signal (i.e. new Signal(Protocols.NECx, "E0E040BF", 32))
 	 * @param delaySend delay pause (in millis) before send translated signal
 	 * @see SignalRuleTable
 	 * 
@@ -125,8 +125,8 @@ public class SignalConverter implements Runnable{
 	
 	/**
 	 * Add a new rule to protocol table. 
-	 * @param in input signal to translate (i.e. new Signal(NEC.PROTOCOL_ID, NEC.POWER_KEY))
-	 * @param out translated signal (i.e. new Signal(NECx.PROTOCOL_ID, NECx.POWER_KEY))
+	 * @param in input signal to translate (i.e. new Signal(Protocols.NEC, "FFEA15", 32))
+	 * @param out translated signal (i.e. new Signal(Protocols.NECx, "E0E040BF", 32))
 	 * @param enabled if true, translated signal will be sent by Arduino Pin 3, 
 	 * otherwise signal won't be send  
 	 * @see SignalRuleTable

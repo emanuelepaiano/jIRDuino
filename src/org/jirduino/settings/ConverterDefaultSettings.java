@@ -18,8 +18,14 @@ package org.jirduino.settings;
 
 public interface ConverterDefaultSettings {
 	
-	public static String JSON_FOLDER="data/json/converters/";
+	/**
+	 * JSON Mapping Converter folder
+	 * */
+	public static String JSON_FOLDER=DefaultSettings.CONFIG_FOLDER+"json/converters/";
 	
+	/**
+	 * Extension for config file
+	 * */
 	public static String JSON_SUFFIX="json";
 
 }

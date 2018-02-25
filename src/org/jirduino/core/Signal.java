@@ -21,7 +21,7 @@ package org.jirduino.core;
  * A Signal object is a pair [id, value], where
  * 
  * <ul>
- * 	<li>id: protocol Imlib2 integer (i. e. 7 for NECx)</li>
+ * 	<li>id: protocol (i. e. Protocols.NECx)</li>
  * 	<li>value: Hex Remote Command (i.e. E0E040BF for Samsung NECx Power key)</li>
  * </ul>
  * 
@@ -49,8 +49,8 @@ public class Signal {
 
 	/**
 	 * Constructor.
-	 * @param id protocol id (i.e. NECx.PROTOCOL_ID)
-	 * @param value hex command (i.e. NECx.POWER_KEY)
+	 * @param id protocol id (i.e. Protocols.NECx)
+	 * @param value hex command (i.e. E0E040BF)
 	 * @param bits bit number (i.e. 32)
 	 * */
 	public Signal(int id, String value, int bits) 

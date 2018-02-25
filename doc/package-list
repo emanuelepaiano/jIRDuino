@@ -1,5 +1,6 @@
 org.jirduino.config
 org.jirduino.core
+org.jirduino.demo
 org.jirduino.drivers
 org.jirduino.helpers
 org.jirduino.remote

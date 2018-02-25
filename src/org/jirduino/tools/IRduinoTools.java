@@ -18,23 +18,30 @@ package org.jirduino.tools;
 
 public class IRduinoTools {
 	
-	public static String version="0.9";
+	public static String version="0.9.5";
 	
 	public static void main(String[] args) {
 		if (args.length>0) {
 			
 			if(args[0].equalsIgnoreCase("sniff")) 
-				IRSerialSniffer.runSniffer(args);
+				IRSerialSnifferTools.runSniffer(args);
 			
 			
 			else if(args[0].equalsIgnoreCase("send"))
-				IRSender.runSender(args);
+				IRSenderTools.runSender(args);
 			
 			else if(args[0].equalsIgnoreCase("generate-json"))
-				JSONGenerator.runGenerator(args);
+				JSONGeneratorTools.runGenerator(args);
 			
 			else if(args[0].equalsIgnoreCase("probe-json"))
-				JSONDetector.runDetector(args);
+				JSONDetectorTools.runDetector(args);
+			
+			else if(args[0].equalsIgnoreCase("convert-signal"))
+				SignalConverterTools.runSignalConverter(args);
+			
+			else if(args[0].equalsIgnoreCase("show-protocols"))
+				showProtocolList();
+			
 			else
 				System.out.println("irduino: Unknown command");
 			
@@ -54,10 +61,12 @@ public class IRduinoTools {
 		System.out.println("Use: java -jar irduino-tools.jar <command> <port> [parametres]");
 		System.out.println("");
 		System.out.println("Available commands:");
+		System.out.println("> show-protocols 	 show supported protocols");
 		System.out.println("> send 			 send IR command");
 		System.out.println("> sniff 		 receive and print IR signals");
 		System.out.println("> generate-json  	 generate json config for IR controller");
 		System.out.println("> probe-json    	 probe exists json config, by key pressing");
+		System.out.println("> convert-signal     	 convert single signal between different protocols");
 		System.out.println("");
 		System.out.println("Run java -jar irduino-tools.jar <command> for advanced help");
 		System.out.println("");
@@ -65,4 +74,23 @@ public class IRduinoTools {
 		
 	}
 
+	public static void showProtocolList() {
+		System.out.println("Supported IR Protocols: ");
+		System.out.println("");
+		System.out.println("id 0 for Unknown Protocol");
+		System.out.println("id 1 for NEC");
+		System.out.println("id 2 for Sony");
+		System.out.println("id 3 for RC5");
+		System.out.println("id 4 for RC6");
+		System.out.println("id 5 for PANASONIC_OLD");
+		System.out.println("id 6 for JVC");
+		System.out.println("id 7 for NECx");
+		System.out.println("id 8 for SAMSUNG36");
+		System.out.println("id 9 for GICABLE");
+		System.out.println("id 10 for DIRECT_TV");
+		System.out.println("id 11 for RCMM");
+		System.out.println("id 12 for CYKM");
+		System.out.println("");
+	}
+	
 }

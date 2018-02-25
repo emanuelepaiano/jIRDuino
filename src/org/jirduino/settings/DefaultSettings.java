@@ -17,9 +17,14 @@
 package org.jirduino.settings;
 
 public interface DefaultSettings {
-	
+	/**
+	 * JSON Config root folder
+	 * */
 	public static String DATA_FOLDER="data/";
 	
+	/**
+	 * JSON Config folder
+	 * */
 	public static String CONFIG_FOLDER=DATA_FOLDER+"";
 
 }

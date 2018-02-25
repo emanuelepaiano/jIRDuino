@@ -16,6 +16,11 @@
 
 package org.jirduino.remote;
 
+/**
+ * Interface for Controller Object
+ * (WORK IN PROGRESS)
+ * 
+ * */
 public interface Controller {
 	
 	public boolean pressKey(String keyName);

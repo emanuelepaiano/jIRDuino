@@ -44,7 +44,7 @@ public interface IRDevice {
 	
 	/**
 	 * send Hex Value command. Simulate a single pressing remote button
-	 * @param command hex command string (i.e. NECx.POWER_KEY or E0E040BF)
+	 * @param command hex command string (i.e. E0E040BF)
 	 * @param protocolId protocol number
 	 * @param bits bit number (protocol)
 	 * @return true if success, false otherwise
