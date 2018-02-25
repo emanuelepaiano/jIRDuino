@@ -1,8 +1,7 @@
 # jIRDuino
-Framework for managing arduino IR from Java threads
+A Java library for sending / receiving IR sensors by Arduino
 
-Java IR framework / frontend for IRDuino - https://github.com/emanuelepaiano/IRDuino-IRLib2
-
+![alt tag](https://github.com/emanuelepaiano/jirduino/blob/master/irduino-device/irduino.jpg?raw=true)
 
 Main Java features:
 <ul>
