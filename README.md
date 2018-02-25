@@ -6,7 +6,7 @@ JIRDuino is a Java library, for receive, send and convert IR signals by a Arduin
 You can emulate IR controllers inside your Java threads or translating signal between IR protocols.
 
 ![alt tag](https://github.com/emanuelepaiano/jirduino/blob/master/irduino-device/irduino.jpg?raw=true)
-![alt tag](https://github.com/emanuelepaiano/jirduino/blob/master/irduino-device/doc/?raw=true)
+[Javadoc](https://github.com/emanuelepaiano/jirduino/blob/master/irduino-device/doc/?raw=true)
 
 Main Java features:
 <ul>
