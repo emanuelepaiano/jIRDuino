@@ -19,14 +19,13 @@ Main Java features:
 ## Easy to use
 
 <pre>
-
-     /* Initializing Device */		
-    IRDevice ir=new IRLib2Device(arduinoPort);
+  /* Initializing Device */		
+  IRDevice ir=new IRLib2Device(arduinoPort);
     
-    // .. Other code
+  // .. Other code: initializing device..
 
-     /* Sending 0xE0E040BF commands on Samsung TV */		
-    ir.sendData(new Signal(Protocols.NECx, "E0E040BF", 32));
+  /* Sending 0xE0E040BF commands on Samsung TV */		
+  ir.sendData(new Signal(Protocols.NECx, "E0E040BF", 32));
 </pre>
 
 For setup, configuration and tutorials, see jIRDuino Wiki: 
