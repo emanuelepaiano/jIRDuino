@@ -30,7 +30,7 @@ Main Java features:
 </pre>
 
 For setup, configuration and tutorials, see jIRDuino Wiki: 
-https://goo.gl/wXvFBh
+[Getting Started](https://goo.gl/wXvFBh)
 
 # License
 - JIRduino is released under Apache 2.0
