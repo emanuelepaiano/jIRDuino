@@ -26,7 +26,7 @@ Main Java features:
 </pre>
 
 For setup, configuration and tutorials, see jIRDuino Wiki: 
-https://github.com/emanuelepaiano/jirduino/wiki/Getting-started
+https://goo.gl/wXvFBh
 
 # License
 - JIRduino is released under Apache 2.0
