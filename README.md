@@ -3,16 +3,6 @@ A Java library for managing IR signals. It permits to receive, send and convert 
 
 ![alt tag](https://github.com/emanuelepaiano/jirduino/blob/master/irduino-device/irduino.jpg?raw=true)
 
-
-Main Java features:
-<ul>
-  <li>IR Sniffer/receiver</li>
-  <li>IR Sender</li>
-  <li>IR Remote signals converter</li>
-  <li>IR Remote controllers translators</li>
-  <li>IR Remote controller simulator, with JSON keys mapped</li>
-</ul>
-
 ## Easy to use
 
 <pre>
@@ -27,6 +17,15 @@ Main Java features:
 
 For setup, configuration and tutorials, see jIRDuino Wiki: 
 [Getting Started](https://goo.gl/wXvFBh)
+
+## Main Java features:
+<ul>
+  <li>IR Sniffer/receiver</li>
+  <li>IR Sender</li>
+  <li>IR Remote signals converter</li>
+  <li>IR Remote controllers translators</li>
+  <li>IR Remote controller simulator, with JSON keys mapped</li>
+</ul>
 
 # License
 - JIRduino is released under Apache 2.0
