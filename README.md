@@ -1,5 +1,5 @@
 # jIRDuino
-A Java library for sending / receiving IR sensors by Arduino
+A Java library for sending / receiving IR signals
 
 ![alt tag](https://github.com/emanuelepaiano/jirduino/blob/master/irduino-device/irduino.jpg?raw=true)
 
